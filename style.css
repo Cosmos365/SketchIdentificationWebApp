@@ -1,0 +1,34 @@
+body {
+    background-color: rebeccapurple;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid darkgrey;
+    border-radius: 20px;
+    animation-name: example;
+    margin-top: 50px;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {
+        box-shadow: 2px 2px 50px  #fffdfd;
+    }
+    to {
+        box-shadow: 2px 2px 50px #000000;
+    }
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
